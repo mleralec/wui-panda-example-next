@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "panda codegen",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -12,11 +13,27 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "@welcome-ui/badge": "../welcome-ui/packages/Badge",
+    "@welcome-ui/box": "../welcome-ui/packages/Box",
+    "@welcome-ui/button": "../welcome-ui/packages/Button",
+    "@welcome-ui/core": "../welcome-ui/packages/Core",
+    "@welcome-ui/icons": "5.0.0-alpha.40",
+    "@welcome-ui/link": "../welcome-ui/packages/Link",
+    "@welcome-ui/system": "../welcome-ui/packages/System",
+    "@welcome-ui/text": "../welcome-ui/packages/Text",
+    "@welcome-ui/themes.welcome": "../welcome-ui/packages/Themes/Welcome",
+    "@welcome-ui/universal-link": "../welcome-ui/packages/UniversalLink",
+    "@xstyled/styled-components": "^3.8.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^5.3.9",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.7.0",
+    "@types/styled-components": "^5.1.26"
   }
 }
