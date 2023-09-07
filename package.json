@@ -13,13 +13,16 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "@welcome-ui/accordion": "../welcome-ui/packages/Accordion",
     "@welcome-ui/badge": "../welcome-ui/packages/Badge",
     "@welcome-ui/box": "../welcome-ui/packages/Box",
     "@welcome-ui/button": "../welcome-ui/packages/Button",
     "@welcome-ui/core": "../welcome-ui/packages/Core",
-    "@welcome-ui/icons": "5.0.0-alpha.40",
+    "@welcome-ui/icon": "../welcome-ui/packages/Icon",
+    "@welcome-ui/icons": "../welcome-ui/icons",
     "@welcome-ui/link": "../welcome-ui/packages/Link",
     "@welcome-ui/system": "../welcome-ui/packages/System",
+    "@welcome-ui/tabs": "../welcome-ui/packages/Tabs",
     "@welcome-ui/text": "../welcome-ui/packages/Text",
     "@welcome-ui/themes.welcome": "../welcome-ui/packages/Themes/Welcome",
     "@welcome-ui/universal-link": "../welcome-ui/packages/UniversalLink",
@@ -33,7 +36,22 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.7.0",
+    "@pandacss/dev": "^0.14.0",
     "@types/styled-components": "^5.1.26"
+  },
+  "resolutions": {
+    "@welcome-ui/accordion": "../welcome-ui/packages/Accordion",
+    "@welcome-ui/badge": "../welcome-ui/packages/Badge",
+    "@welcome-ui/box": "../welcome-ui/packages/Box",
+    "@welcome-ui/button": "../welcome-ui/packages/Button",
+    "@welcome-ui/core": "../welcome-ui/packages/Core",
+    "@welcome-ui/icon": "../welcome-ui/packages/Icon",
+    "@welcome-ui/icons": "../welcome-ui/icons",
+    "@welcome-ui/link": "../welcome-ui/packages/Link",
+    "@welcome-ui/system": "../welcome-ui/packages/System",
+    "@welcome-ui/tabs": "../welcome-ui/packages/Tabs",
+    "@welcome-ui/text": "../welcome-ui/packages/Text",
+    "@welcome-ui/themes.welcome": "../welcome-ui/packages/Themes/Welcome",
+    "@welcome-ui/universal-link": "../welcome-ui/packages/UniversalLink"
   }
 }

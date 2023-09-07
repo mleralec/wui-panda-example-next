@@ -2,9 +2,8 @@ import { Box } from "@welcome-ui/box";
 import { Button } from "@welcome-ui/button";
 import { Text } from "@welcome-ui/text";
 import { createTheme, WuiProvider } from "@welcome-ui/core";
-import { welcomeTheme } from "@welcome-ui/themes.welcome";
 
-const theme = createTheme(welcomeTheme);
+const theme = createTheme();
 
 type ButtonVariant = React.ComponentProps<typeof Button>["variant"];
 type TextVariant = React.ComponentProps<typeof Text>["variant"];
